@@ -291,7 +291,7 @@ body{
     transform: translateX(-20px);
 }
 
-@media only screen and (max-width: 940px){
+@media only screen and (max-width: 600px){
     .menu-container{
         display: none;
     }
@@ -316,35 +316,4 @@ body{
 }
 
 
-
-@media only screen and (max-width: 240px){
-
-    .menu-container{
-        display: none;
-    }
-
-    .featured-content{
-        height: 40vh;
-        padding: 20px;
-        padding-left: 1rem;
-    }
-
-    .featured-title{
-        width: 150px;
-        height: 25vh;
-        border-radius: 7px;
-    }
-
-    .featured-desc{
-        width: 120px;
-
-    }
-
-    .logo{
-        font-size: 18px;
-        color: green;
-        display: flex;
-    }    
-    
-}
     
