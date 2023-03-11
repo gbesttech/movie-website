@@ -334,6 +334,11 @@ body{
         display: none;
     }
 
+    .logo{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
     .featured-content{
         height: 60vh;
         padding: 30px;
@@ -342,13 +347,13 @@ body{
     }
 
     .featured-title{
-        width: 300px;
+        width: 270px;
         height: 30vh;
         border-radius: 10px;
     }
 
     .featured-desc{
-        width: 300px;
+        width: 270px;
 
     }
 
@@ -364,8 +369,9 @@ body{
     }
 
     .movie-list-item-img{
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 180px;
+        margin-bottom: 30px;
     }
 
     .movie-list-item-title{
@@ -374,7 +380,7 @@ body{
 
     .movie-list-item-desc{
         font-size: 10px;
-        width: 200px;
+        width: 250px;
     }
 
     .movie-list-item-button{
@@ -383,6 +389,18 @@ body{
 
     .movie-list-wrapper{
         overflow: hidden;
+    }
+
+    .movie-list{
+        display: block;
+        margin-top: 30px;
+        min-height: 200vh;
+        margin-left: 10px;
+    }
+
+    .arrow {
+        display: none;
+        opacity: 0;
     }
     
 }
