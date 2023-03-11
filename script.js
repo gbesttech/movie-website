@@ -5,11 +5,11 @@ arrows.forEach((arrow, i) => {
   const itemNumber = movieLists[i].querySelectorAll("img").length;
   let clickCounter = 0;  
   arrow.addEventListener("click", () => {
-    const ratio = Math.floor(window.innerWidth / 270);
+    const ratio = Math.floor(window.innerWidth / 250);
     clickCounter++;
-    if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
+    if (itemNumber - (3 + clickCounter) + (3 - ratio) >= 0) {
      movieLists[i].style.transform = `translateX(${
-        movieLists[i].computedStyleMap().get("transform")[0].x.value - 320
+        movieLists[i].computedStyleMap().get("transform")[0].x.value - 250
       }px)`;
     } else {
       movieLists[i].style.transform = "translateX(0)";
@@ -17,7 +17,8 @@ arrows.forEach((arrow, i) => {
     }
   });
 
-  console.log(Math.floor(window.innerWidth));
+
+  console.log(Math.floor(window.innerWidth / 250));
 });
 
 
