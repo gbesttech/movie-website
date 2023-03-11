@@ -300,6 +300,7 @@ body{
         height: 60vh;
         padding: 30px;
         padding-left: 2rem;
+        
     }
 
     .featured-title{
@@ -310,6 +311,18 @@ body{
 
     .featured-desc{
         width: 370px;
+
+    }
+
+    .container{
+        background-color: #151515;
+        min-height: calc(100vh - 50px);
+        color: white;
+    
+    }
+    
+    .content-container{
+        margin-left: 50px;
 
     }
     
